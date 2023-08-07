@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, serif;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    max-width: 350px;
+    margin-top: 100px ;
+    margin-left: 120px;
+    padding: 50px;
+    background-color: #d8d875;
+    border-top-right-radius: 1.5cm;
+    border-bottom-left-radius: 1.5cm;
+    height: 400px;
+    border: 2px solid;
+    border-width: 8px;
+    border-color: #391a29;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(99, 13, 196);
+}
+  .input-group {
+    margin-bottom: 10px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  #celsius , #fahrenheit{
+    border-radius: 2cm;
+    height: 30px;
+  }
